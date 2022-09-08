@@ -10,9 +10,9 @@ public class LetCodePage {
         this.page = page;
     }
 
-    private final Page page;
-
     public final String url = "https://letcode.in/test";
+
+    private final Page page;
 
     public void goToEdit() {
         page.navigate(url);
